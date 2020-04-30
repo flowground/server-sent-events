@@ -1,0 +1,30 @@
+{
+    "title": "SSE Connector",
+    "description": "Connector for Server Sent Events.",
+    "credentials": {
+        "fields": {
+            "url": {
+                "label": "URL",
+                "required": true,
+                "viewClass": "TextFieldView",
+                "note": "SSE server url, including protocol (eg: http://example.org)"
+            }
+        }
+    },
+    "docsUrl": "https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events",
+    "url": "",
+    "envVars": {},
+    "triggers": {
+        "realtimeEvents": {
+            "main": "./lib/triggers/realtimeEvents.js",
+            "type": "polling",
+            "title": "Retrieve realtime events from an event streaming server",
+            "fields": {},
+            "metadata": {
+                "out": {
+                    "type": "object"
+                }
+            }
+        }
+    }
+}

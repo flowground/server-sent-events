@@ -1,16 +1,9 @@
 {
   "name": "eio.server-sent-events",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://msp-wbench.wesp.telekom.net/gitlab/msp-team/eio.server-sent-events.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "elasticio-node": "0.0.9",
+    "elasticio-sailor-nodejs": "^2.6.5",
+    "eventsource": "^1.0.7"
+  }
 }
