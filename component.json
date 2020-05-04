@@ -1,6 +1,7 @@
 {
     "title": "SSE Connector",
     "description": "Connector for Server Sent Events.",
+    "buildType:": "docker",
     "credentials": {
         "fields": {
             "url": {

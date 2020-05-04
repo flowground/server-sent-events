@@ -1,8 +1,6 @@
-![SSE Connector logo](logo.png "SSE logo")
+# ![LOGO](logo.png) Server sent events **flow**ground Connector
 
-### SSE Connector
-
-[SSE](https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events) connector for the [Flowground plattform](https://app.flowground.net/ "Flowground platform")
+[SSE](https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events) connector for the [flowground platform](https://app.flowground.net/ "Flowground platform")
 
 > [SSE](https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events) is a server push technology enabling a client to receive automatic updates from a server via HTTP connection.
 

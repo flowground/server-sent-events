@@ -1,5 +1,5 @@
 {
-  "name": "eio.server-sent-events",
+  "name": "server-sent-events-connector",
   "version": "1.0.0",
   "dependencies": {
     "elasticio-node": "0.0.9",
